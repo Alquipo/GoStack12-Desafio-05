@@ -34,6 +34,11 @@ Nesse desafio, foi criado uma aplicação para treinar o que aprendi até agora 
 
 Essa será uma aplicação para armazenar transações financeiras de entrada e saída, que deve permitir o cadastro e a listagem dessas transações.
 
+<p align="center">
+
+  <img  alt="Test" title="Test" src=".github/teste.png"  />
+</p>
+
 ## 🔨 Tecnologias:
 
 - [NodeJs][nodejs]
