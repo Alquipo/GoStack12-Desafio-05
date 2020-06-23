@@ -14,6 +14,10 @@ class CreateTransactionService {
   }
 
   public execute({ title, value, type }: CreateTransactionTDO): Transaction {
+    if (!['income', 'outcome'].includes(type)) {
+      throw new Error('Não e uma transação valida');
+    }
+
     const { total } = this.transactionsRepository.getBalance();
 
     if (type === 'outcome' && total < value) {
