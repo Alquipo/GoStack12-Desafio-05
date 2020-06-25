@@ -67,7 +67,7 @@ $ cd GoStack12-desafio-05
 $ yarn
 
 # Execute a Aplicação
-$ yarn dev
+$ yarn dev:server
 
 # Execute o teste da Aplicação
 $ yarn test
